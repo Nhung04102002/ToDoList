@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+  
+#all{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1{
+    margin: 30px auto 40px auto;
+    text-align: center;
+    color: #7289da;
+}
+
+#task{
+    padding-left: 15px;
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0.5px solid gray;
+    font-size: 15px;
+}
+
+.btn{
+    border-radius: 10px;
+    width: 80px;
+    height: 40px;
+    margin-left: 20px;
+    border: 0;
+    cursor: pointer;
+}
+
+.frm{
+    margin: 30px auto;
+    text-align: center;
+}
+
+#content{
+    margin: 10px auto;
+    border-top: 1px solid gray;
+    width: 900px;
+    padding-top: 30px;
+}
+
+p{
+    margin: auto auto auto 0px;
+}
+
+.divAll{
+    display: grid;
+    grid-template-columns: 7% 81% auto auto;
+    border: 0px solid lightgray;
+    margin: 5px auto;
+    border-radius: 10px;
+    background-color:#ced8fb;
+    width: 615px;
+    height: 40px;
+    padding: auto 10px auto 10px;
+}
+
+.button{
+    border: 0;
+    background-color:#ced8fb;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+.ok{
+    color: green;
+    border-color: green;
+}
+
+.circle{
+    font-size: 20px;
+}
+
+.line{
+    text-decoration: line-through;
+    color: gray;
+}
+.enter {
+    background-color:#7289da;
+    color: white;
+}
+
+@media screen and (max-width: 900px) {
+    #task{
+      width: 60%; 
+    }
+    .btn{
+        width: 20%;
+    }
+    #content {
+        width: 100%;
+    }
+    .divAll{
+        width: 85%;
+    }
+
+  }
